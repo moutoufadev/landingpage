@@ -57,3 +57,111 @@ a{
     
 
 }
+.information{
+    font-weight: 900;
+    font-size: 36px;
+    color: #1f2937;
+}
+
+.random-information{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.boxes{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+   
+}
+.rounded-box {
+    width: 100px; /* Adjust size as needed */
+    height: 100px;
+    border: 3px solid blue; /* Border color and thickness */
+    border-radius: 10px; /* Rounded corners */
+    background-color: white; /* Background color */
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.quotes{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    
+}
+.body-quote{
+    background-color: #e5e7eb;
+    font: 60px light italic #1f2937;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 40px;
+    margin: 20px;
+}
+.author{
+    align-self: flex-end;
+}
+
+/* Centering the CTA Box in the Page */
+.cta-container {
+    display: flex;
+    justify-content: center;  /* Center horizontally */
+    align-items: center;      /* Center vertically */
+               /* Full viewport height */
+    background-color: white;
+}
+
+/* CTA Box Styling */
+.cta-box {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 60%;
+    padding: 20px 40px;
+    background-color: #4285F4; /* Blue Background */
+    color: white;
+    border-radius: 10px;
+    margin: 15px;
+}
+
+/* CTA Text Styling */
+.cta-text h2 {
+    font-size: 24px;
+    margin-bottom: 5px;
+}
+
+/* CTA Button Styling */
+.cta-button {
+    background-color: transparent;
+    color: white;
+    border: 2px solid white;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.cta-button:hover {
+    background-color: rgba(255, 255, 255, 0.2);
+}
+
+/* Footer Styling */
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #1a1f2b; /* Dark Footer */
+    color: white;
+
+    bottom: 0;
+    width: 100%;
+}
